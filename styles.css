@@ -1,3 +1,8 @@
+.personnel {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .performers, .producers, .writers {
   display: flex;
   flex-direction: row;
