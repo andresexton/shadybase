@@ -1,4 +1,9 @@
 body {
+  background-color: #eeeeee;
+  color: #222222;
+}
+
+.dark-mode {
   background-color: #222222;
   color: #eeeeee;
 }
@@ -26,6 +31,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   filter: grayscale(100%);
+}
+
+.dark-mode > .personnel > .performers > a > div, .dark-mode > .personnel > .producers > a > div, .dark-mode > .personnel > .writers > a > div {
   box-shadow: 0 0 5px rgba(255,255,255,0.5);
 }
 
