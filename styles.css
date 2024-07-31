@@ -1,0 +1,56 @@
+.performers, .producers, .writers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1vw;
+  width: 100%;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+.performers > a > div, .producers > a > div, .writers > a > div {
+  min-width: 150px;
+  min-height: 150px;
+  background-color: #111111;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(100%);
+}
+
+.performers > a > div:hover, .producers > a > div:hover, .writers > a > div:hover {
+  filter: grayscale(0%);
+}
+
+.performers > a > .feat:after {
+  content: "feat.";
+}
+
+.producers > a > .add:after {
+  content: "add.";
+}
+
+.performers > a > .feat:after, .producers > a > .add:after {
+  display: block;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 10px;
+  right: 10px;
+  font-size: 10px;
+  padding: 2px;
+  background: white;
+  color: #111111;
+  align-content: center;
+  text-align: center;
+}
+
+/* Personnel thumbnails */
+
+.benny-blanco { background-image: url(/Benny-Blanco-Headshot.png); }
+.david-ray { background-image: url(/David-Ray-Headshot.png); }
+.emile-haynie { background-image: url(/Emile-Haynie-Headshot.png); }
+.eminem { background-image: url(/Eminem-Headshot.png); }
+.jelly-roll { background-image: url(/Jelly-Roll-Headshot.png); }
+.luis-resto { background-image: url(/Luis-Resto-Headshot.png); }
