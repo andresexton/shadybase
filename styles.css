@@ -15,7 +15,7 @@ body {
   gap: 1vw;
   width: 100%;
   align-items: center;
-  padding-bottom: 1em;
+  padding-bottom: 1vw;
 }
 
 .performers > a > div, .producers > a > div, .writers > a > div {
