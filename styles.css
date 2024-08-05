@@ -12,6 +12,7 @@ body {
 .personnel {
   display: flex;
   flex-direction: row;
+  gap: 2vw;
   max-width: 1000px;
   margin: 0 auto;
 }
