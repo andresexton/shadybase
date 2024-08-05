@@ -22,7 +22,6 @@ body {
   flex-direction: column;
   flex: 1;
   flex-wrap: wrap;
-  gap: 1vw;
   width: 100%;
   padding-bottom: 1vw;
 }
@@ -30,6 +29,7 @@ body {
 .personnel > div > .personnelList {
   display: flex;
   flex-direction: row;
+  gap: 1vw;
 }
 
 .personnel > div > .personnelList > a > div {
