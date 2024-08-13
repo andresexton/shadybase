@@ -101,6 +101,15 @@ h2 a:hover, h3 a:hover {
   color: #fff;
   background: #30b298;
   padding: 1em;
+	overflow: auto;
+}
+
+.sideTitle {
+  height: calc(10vh - 0.8em);
+}
+
+.sideSection {
+  height: calc(30vh - 0.8em);
 }
 
 .main {
@@ -117,18 +126,16 @@ h2 a:hover, h3 a:hover {
   flex-direction: row;
   gap: 0.5em;
   width: 100%;
-  flex-wrap: wrap;
 }
 
 
 .person {
-  width: calc(10.5vw - 0.5em);
-  height: calc(10.5vw - 0.5em);
+  width: calc(12vw - 0.5em);
+  height: calc(12.5vw - 0.5em);
   background-color: #111111;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-	overflow: hidden;
 	position: relative;
 	box-shadow: 0 1px 2px rgba(0,0,0,0.2);
 	transition: all 0.2s ease-in-out;
@@ -207,298 +214,296 @@ p.lyricsHeader {
     
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit">
 
-<section class="songHero">
-  <div class="songTitle">
-    <h1>Forev<span class="flip">e</span>r</h1>
-    <h2>by <a href="/person/drake">Drake</a>, <a href="/person/kanye-west">Kanye West</a>, <a href="/person/lil-wayne">Lil Wayne</a> &amp; <a href="/person/eminem">Eminem</a></h2>
-    <h3>from the albums <em>More Than a Game</em> (2009) and <em>Relapse: Refill</em> (2009)</h3>
-  </div>
-  <div class="songArtwork">
-    <img src="https://cdns-images.dzcdn.net/images/cover/e1e3e58f8f395010769d435ae3f14bb4/1900x1900-000000-80-0-0.jpg"/>
-  </div>
-</section>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit">
 
-
-  <section class="songDetails">
-    <div class="side">
-      <h2>Credits</h2>
-      <h3>Performers</h3>
-      <div class="creditsInner">
-        <a href="/person/drake">
-          <div class="person drake" title="Drake">
-            <div class="personInfo">
-              <h4>Drake</h4>
-            </div>
-          </div>
-        </a>
-        <a href="/person/kanye-west">
-          <div class="person kanye" title="Kanye West">
-            <div class="personInfo">
-              <h4>Kanye West</h4>
-            </div>
-          </div>
-        </a>
-        <a href="/person/lil-wayne">
-          <div class="person wayne" title="Lil Wayne">
-            <div class="personInfo">
-              <h4>Lil Wayne</h4>
-            </div>
-          </div>
-        </a>
-        <a href="/person/eminem">
-          <div class="person eminem" title="Eminem">
-            <div class="personInfo">
-              <h4>Eminem</h4>
-            </div>
-          </div>
-        </a>
+    <section class="songHero">
+      <div class="songTitle">
+        <h1>Forev<span class="flip">e</span>r</h1>
+        <h2>by <a href="/person/drake">Drake</a>, <a href="/person/kanye-west">Kanye West</a>, <a href="/person/lil-wayne">Lil Wayne</a> &amp; <a href="/person/eminem">Eminem</a></h2>
+        <h3>from the albums <em>More Than a Game</em> (2009) and <em>Relapse: Refill</em> (2009)</h3>
       </div>
-      <h3>Producers</h3>
-      <div class="creditsInner">
-        <a href="/person/boi-1da">
-          <div class="person boi-1da" title="Boi-1da">
-            <div class="personInfo">
-              <h4>Boi-1da</h4>
-            </div>
-          </div>
-        </a>
+      <div class="songArtwork">
+        <img src="https://cdns-images.dzcdn.net/images/cover/e1e3e58f8f395010769d435ae3f14bb4/1900x1900-000000-80-0-0.jpg"/>
       </div>
-      <h3>Writers</h3>
-      <div class="creditsInner">
-        <a href="/person/drake">
-          <div class="person drake" title="Drake">
-            <div class="personInfo">
-              <h4>Drake</h4>
+    </section>
+    
+    
+      <section class="songDetails">
+        <div class="side">
+          <div class="sideTitle">
+            <h2>Credits</h2>
+          </div>
+          <div class="sideSection">
+            <h3>Performers</h3>
+            <div class="creditsInner">
+              <a href="/person/drake">
+                <div class="person drake" title="Drake">
+                  <div class="personInfo">
+                    <h4>Drake</h4>
+                  </div>
+                </div>
+              </a>
+              <a href="/person/kanye-west">
+                <div class="person kanye" title="Kanye West">
+                  <div class="personInfo">
+                    <h4>Kanye West</h4>
+                  </div>
+                </div>
+              </a>
+              <a href="/person/lil-wayne">
+                <div class="person wayne" title="Lil Wayne">
+                  <div class="personInfo">
+                    <h4>Lil Wayne</h4>
+                  </div>
+                </div>
+              </a>
             </div>
           </div>
-        </a>
-        <a href="/person/kanye-west">
-          <div class="person kanye" title="Kanye West">
-            <div class="personInfo">
-              <h4>Kanye West</h4>
+          <div class="sideSection">
+            <h3>Producers</h3>
+            <div class="creditsInner">
+              <a href="/person/boi-1da">
+                <div class="person boi-1da" title="Boi-1da">
+                  <div class="personInfo">
+                    <h4>Boi-1da</h4>
+                  </div>
+                </div>
+              </a>
             </div>
           </div>
-        </a>
-        <a href="/person/lil-wayne">
-          <div class="person wayne" title="Lil Wayne">
-            <div class="personInfo">
-              <h4>Lil Wayne</h4>
+          <div class="sideSection">
+            <h3>Writers</h3>
+            <div class="creditsInner">
+              <a href="/person/drake">
+                <div class="person drake" title="Drake">
+                  <div class="personInfo">
+                    <h4>Drake</h4>
+                  </div>
+                </div>
+              </a>
+              <a href="/person/kanye-west">
+                <div class="person kanye" title="Kanye West">
+                  <div class="personInfo">
+                    <h4>Kanye West</h4>
+                  </div>
+                </div>
+              </a>
+              <a href="/person/lil-wayne">
+                <div class="person wayne" title="Lil Wayne">
+                  <div class="personInfo">
+                    <h4>Lil Wayne</h4>
+                  </div>
+                </div>
+              </a>
+              <a href="/person/eminem">
+                <div class="person eminem" title="Eminem">
+                  <div class="personInfo">
+                    <h4>Eminem</h4>
+                  </div>
+                </div>
+              </a>
             </div>
           </div>
-        </a>
-        <a href="/person/eminem">
-          <div class="person eminem" title="Eminem">
-            <div class="personInfo">
-              <h4>Eminem</h4>
-            </div>
-          </div>
-        </a>
-        <a href="/person/boi-1da">
-          <div class="person boi-1da" title="Boi-1da">
-            <div class="personInfo">
-              <h4>Boi-1da</h4>
-            </div>
-          </div>
-        </a>
+        </div>
+        <div class="main">
+          <h2>Lyrics</h2>
+          <p class="lyricsHeader">
+            Chorus: Drake
+          </p>
+          <p class="lyricsDetail">
+            It may not mean nothin' to y'all<br>
+            But understand, nothin' was done for me<br>
+            So I don't plan on stoppin' at all<br>
+            I want this shit forever mane, 'ever mane, 'ever mane<br><br>
+            I'm shuttin' shit down in the mall<br>
+            And tellin' every girl she the one for me<br>
+            And I ain't even plannin' to call<br>
+            I want this shit forever mane, 'ever mane, 'ever mane</p>
+          
+          <p class="lyricsHeader">
+            Verse: Drake
+          </p>
+          <p class="lyricsDetail">
+            Last name Ever, first name Greatest<br>
+            Like a sprained ankle, boy I ain't nothin' to play with<br>
+            Started off local, but thanks to all the haters<br>
+            I know G4 pilots on a first name basis<br><br>
+            In your city faded off the brown, Nino<br>
+            She insists she got more class, we know<br>
+            Swimmin' in the money, come and find me, Nemo<br>
+            If I was at the club you know I ball, chemo<br><br>
+              Dropped the mixtape, that shit sounded like a album<br>
+            Who'd'a thought a countrywide tour would be the outcome?<br>
+            Labels want my name beside a X like Malcolm<br>
+            Everybody got a deal, I did it without one<br><br>
+            Yeah, nigga I'm about my business<br>
+            Killin' all these rappers, you would swear I had a hit list<br>
+            Everyone who doubted me is askin' for forgiveness<br>
+            If you ain't been a part of it, at least you got to witness<br>Bitches</p>
+          
+          <p class="lyricsHeader">
+            Chorus: Drake
+          </p>
+          <p class="lyricsDetail">
+            It may not mean nothin' to y'all<br>
+            But understand, nothin' was done for me<br>
+            So I don't plan on stoppin' at all<br>
+            I want this shit forever mane, 'ever mane, 'ever mane<br><br>
+            I'm shuttin' shit down in the mall<br>
+            And tellin' every girl she the one for me<br>
+            And I ain't even plannin' to call<br>
+            I want this shit forever mane, 'ever mane, 'ever mane</p>
+          
+          
+          <p class="lyricsHeader">
+            Verse: Kanye West
+          </p>
+          <p class="lyricsDetail">
+            Hey, ever-ever, Mr. West is in the building<br>
+            Ain't no question who about to kill 'em<br><br>
+            I used to have hood dreams, big fame, big chains<br>
+            I stuck my dick inside this life until that bitch came<br>
+            I went hard all fall like the ball teams<br>
+            Just so I can make it rain all spring<br><br>
+            Y'all seen my story, my glory<br>
+            I had raped the game young, you could call it statutory<br>
+            When a nigga blow up, they gon' build statues for me<br>
+            Old money, Benjamin Button, what? Nothin'<br><br>
+            Now super bad chicks giving me McLovin'<br>
+            You would think I ran the world like Michelle's husband<br>
+            You would think these niggas know me when they really doesn't<br>
+            Like they was down with the old me, no you fuckin' wasn't<br><br>
+            You're such a fuckin' loser<br>
+            He ain't even go to class, Bueller<br>
+            Trade the Grammy plaques just to have my granny back<br>
+            'Member she had that bad hip like a fanny pack?<br><br>
+            Chasin' the stardom would turn you to a maniac<br>
+            All the way in Hollywood and I can't even act<br>
+            They pull their cameras out and goddamn he snap<br>
+            I used to want this thing forever, y'all can have it back
+          </p>
+          
+          <p class="lyricsHeader">
+            Chorus: Drake
+          </p>
+          <p class="lyricsDetail">
+            It may not mean nothin' to y'all<br>
+            But understand, nothin' was done for me<br>
+            So I don't plan on stoppin' at all<br>
+            I want this shit forever mane, 'ever mane, 'ever mane<br><br>
+            I'm shuttin' shit down in the mall<br>
+            And tellin' every girl she the one for me<br>
+            And I ain't even plannin' to call<br>
+            I want this shit forever mane, 'ever mane, 'ever mane</p>
+          
+          <p class="lyricsHeader">
+            Verse: Lil Wayne
+          </p>
+          <p class="lyricsDetail">
+            Okay, hello, it's the Martian, Space Jam Jordans<br>
+            I want this shit forever, wake up and smell the garden<br>
+            Fresher than the harvest, step up to the target<br>
+            If I had one guess, then I guess I'm just New Orleans<br><br>
+            And I would never stop like I'm runnin' from the cops<br>
+            Hopped up in my car and told my chauffeur, &ldquo;To the top&rdquo;<br>
+            Life is such a fuckin' rollercoaster, then it drops<br>
+            But what should I scream for? This is my theme park<br><br>
+            My mind shine even when my thoughts seem dark<br>
+            Pistol on my side, you don't wanna hear that thing talk<br>
+            Let the king talk, check the price and pay attention<br>
+            Lil Wayne, that's what they gotta say or mention<br><br>
+            I'm like Nevada in the middle of the summer<br>
+            I'm restin' in the lead, I need a pillow and a cover<br>
+            Shh, my foot's sleeping on the gas<br>
+            No brake pads, no such thing as last</p>
+          
+          <p class="lyricsHeader">
+            Chorus: Drake
+          </p>
+          <p class="lyricsDetail">
+            It may not mean nothin' to y'all<br>
+            But understand, nothin' was done for me<br>
+            So I don't plan on stoppin' at all<br>
+            I want this shit forever mane, 'ever mane, 'ever mane<br><br>
+            I'm shuttin' shit down in the mall<br>
+            And tellin' every girl she the one for me<br>
+            And I ain't even plannin' to call<br>
+            I want this shit forever mane, 'ever mane, 'ever mane</p>
+          
+          <p class="lyricsHeader">
+            Verse: Eminem
+          </p>
+          <p class="lyricsDetail">
+            There they go<br>
+            Packin' stadiums as Shady spits his flow<br>
+            Nuts they go<br>
+            Macadamian, they go so ballistic, woah<br>
+            He can make them look like bozos<br>
+            He's wondering if he should spit this slow<br>
+            Fuck no, go for broke<br>
+            His cup just runneth over, oh no<br><br>
+            He ain't had him a buzz like this<br>
+            Since the last time that he overdosed<br>
+            They been waitin' patiently<br>
+            For Pinocchio to poke his nose<br>
+            Back into the game and they know<br>
+            Rap will never be the same as before<br>
+            Bashing in the brains of these hoes<br>
+            And establishing a name as he goes<br><br>
+            The passion and the flame is ignited<br>
+            You can't put it out once we light it<br>
+            This shit is exactly what the fuck that<br>
+            I'm talkin' about when we riot<br>
+            You dealin' with a few true villains<br>
+            Who stand inside of the booth truth-spillin'<br>
+            And spit true feelings until our tooth fillings<br>
+            Come flyin' up out of our mouths, now rewind it<br><br>
+            Payback, motherfucker<br>
+            For the way that you doubted me, how's it taste?<br>
+            When I slap the taste outta your mouth<br>
+            With the bass so loud that it shakes the place<br>
+            I'm Hannibal Lecter, so just in case<br>
+            You're thinkin' of savin' face<br>
+            You ain't gonna have no face to save<br>
+            By the time I'm through with this place, so Drake</p>
+          
+          <p class="lyricsHeader">
+            Chorus: Drake
+          </p>
+          <p class="lyricsDetail">
+            It may not mean nothin' to y'all<br>
+            But understand, nothin' was done for me<br>
+            So I don't plan on stoppin' at all<br>
+            I want this shit forever mane, 'ever mane, 'ever mane<br><br>
+            I'm shuttin' shit down in the mall<br>
+            And tellin' every girl she the one for me<br>
+            And I ain't even plannin' to call<br>
+            I want this shit forever mane, 'ever mane, 'ever mane</p>
+        </div>
+      </section>
+    
+      <footer class="footer">
+        <h2>Other personnel</h2>
+        <ul>
+          <li>Keyboards by Mike Strange and Eric Johnson</li>
+          <li>Recorded by Mike Strange and Noah &ldquo;40&rdquo; Shebib</li>
+          <li>Assistant engineer: Joe Strange</li>
+          <li>Mixed by Eminem</li>
+        </ul>
+      </footer>
+    
+    <section class="songHero">
+      <div class="songTitle">
+        <h2 style="text-align:center;">Stream the song:</h2>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2wDz70kiUyVKNSusLt7CNL?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
       </div>
-    </div>
-    <div class="main">
-      <h2>Lyrics</h2>
-      <p class="lyricsHeader">
-        Chorus: Drake
-      </p>
-      <p class="lyricsDetail">
-        It may not mean nothin' to y'all<br>
-        But understand, nothin' was done for me<br>
-        So I don't plan on stoppin' at all<br>
-        I want this shit forever mane, 'ever mane, 'ever mane<br><br>
-        I'm shuttin' shit down in the mall<br>
-        And tellin' every girl she the one for me<br>
-        And I ain't even plannin' to call<br>
-        I want this shit forever mane, 'ever mane, 'ever mane</p>
-      
-      <p class="lyricsHeader">
-        Verse: Drake
-      </p>
-      <p class="lyricsDetail">
-        Last name Ever, first name Greatest<br>
-        Like a sprained ankle, boy I ain't nothin' to play with<br>
-        Started off local, but thanks to all the haters<br>
-        I know G4 pilots on a first name basis<br><br>
-        In your city faded off the brown, Nino<br>
-        She insists she got more class, we know<br>
-        Swimmin' in the money, come and find me, Nemo<br>
-        If I was at the club you know I ball, chemo<br><br>
-          Dropped the mixtape, that shit sounded like a album<br>
-        Who'd'a thought a countrywide tour would be the outcome?<br>
-        Labels want my name beside a X like Malcolm<br>
-        Everybody got a deal, I did it without one<br><br>
-        Yeah, nigga I'm about my business<br>
-        Killin' all these rappers, you would swear I had a hit list<br>
-        Everyone who doubted me is askin' for forgiveness<br>
-        If you ain't been a part of it, at least you got to witness<br>Bitches</p>
-      
-      <p class="lyricsHeader">
-        Chorus: Drake
-      </p>
-      <p class="lyricsDetail">
-        It may not mean nothin' to y'all<br>
-        But understand, nothin' was done for me<br>
-        So I don't plan on stoppin' at all<br>
-        I want this shit forever mane, 'ever mane, 'ever mane<br><br>
-        I'm shuttin' shit down in the mall<br>
-        And tellin' every girl she the one for me<br>
-        And I ain't even plannin' to call<br>
-        I want this shit forever mane, 'ever mane, 'ever mane</p>
-      
-      
-      <p class="lyricsHeader">
-        Verse: Kanye West
-      </p>
-      <p class="lyricsDetail">
-        Hey, ever-ever, Mr. West is in the building<br>
-        Ain't no question who about to kill 'em<br><br>
-        I used to have hood dreams, big fame, big chains<br>
-        I stuck my dick inside this life until that bitch came<br>
-        I went hard all fall like the ball teams<br>
-        Just so I can make it rain all spring<br><br>
-        Y'all seen my story, my glory<br>
-        I had raped the game young, you could call it statutory<br>
-        When a nigga blow up, they gon' build statues for me<br>
-        Old money, Benjamin Button, what? Nothin'<br><br>
-        Now super bad chicks giving me McLovin'<br>
-        You would think I ran the world like Michelle's husband<br>
-        You would think these niggas know me when they really doesn't<br>
-        Like they was down with the old me, no you fuckin' wasn't<br><br>
-        You're such a fuckin' loser<br>
-        He ain't even go to class, Bueller<br>
-        Trade the Grammy plaques just to have my granny back<br>
-        'Member she had that bad hip like a fanny pack?<br><br>
-        Chasin' the stardom would turn you to a maniac<br>
-        All the way in Hollywood and I can't even act<br>
-        They pull their cameras out and goddamn he snap<br>
-        I used to want this thing forever, y'all can have it back
-      </p>
-      
-      <p class="lyricsHeader">
-        Chorus: Drake
-      </p>
-      <p class="lyricsDetail">
-        It may not mean nothin' to y'all<br>
-        But understand, nothin' was done for me<br>
-        So I don't plan on stoppin' at all<br>
-        I want this shit forever mane, 'ever mane, 'ever mane<br><br>
-        I'm shuttin' shit down in the mall<br>
-        And tellin' every girl she the one for me<br>
-        And I ain't even plannin' to call<br>
-        I want this shit forever mane, 'ever mane, 'ever mane</p>
-      
-      <p class="lyricsHeader">
-        Verse: Lil Wayne
-      </p>
-      <p class="lyricsDetail">
-        Okay, hello, it's the Martian, Space Jam Jordans<br>
-        I want this shit forever, wake up and smell the garden<br>
-        Fresher than the harvest, step up to the target<br>
-        If I had one guess, then I guess I'm just New Orleans<br><br>
-        And I would never stop like I'm runnin' from the cops<br>
-        Hopped up in my car and told my chauffeur, &ldquo;To the top&rdquo;<br>
-        Life is such a fuckin' rollercoaster, then it drops<br>
-        But what should I scream for? This is my theme park<br><br>
-        My mind shine even when my thoughts seem dark<br>
-        Pistol on my side, you don't wanna hear that thing talk<br>
-        Let the king talk, check the price and pay attention<br>
-        Lil Wayne, that's what they gotta say or mention<br><br>
-        I'm like Nevada in the middle of the summer<br>
-        I'm restin' in the lead, I need a pillow and a cover<br>
-        Shh, my foot's sleeping on the gas<br>
-        No brake pads, no such thing as last</p>
-      
-      <p class="lyricsHeader">
-        Chorus: Drake
-      </p>
-      <p class="lyricsDetail">
-        It may not mean nothin' to y'all<br>
-        But understand, nothin' was done for me<br>
-        So I don't plan on stoppin' at all<br>
-        I want this shit forever mane, 'ever mane, 'ever mane<br><br>
-        I'm shuttin' shit down in the mall<br>
-        And tellin' every girl she the one for me<br>
-        And I ain't even plannin' to call<br>
-        I want this shit forever mane, 'ever mane, 'ever mane</p>
-      
-      <p class="lyricsHeader">
-        Verse: Eminem
-      </p>
-      <p class="lyricsDetail">
-        There they go<br>
-        Packin' stadiums as Shady spits his flow<br>
-        Nuts they go<br>
-        Macadamian, they go so ballistic, woah<br>
-        He can make them look like bozos<br>
-        He's wondering if he should spit this slow<br>
-        Fuck no, go for broke<br>
-        His cup just runneth over, oh no<br><br>
-        He ain't had him a buzz like this<br>
-        Since the last time that he overdosed<br>
-        They been waitin' patiently<br>
-        For Pinocchio to poke his nose<br>
-        Back into the game and they know<br>
-        Rap will never be the same as before<br>
-        Bashing in the brains of these hoes<br>
-        And establishing a name as he goes<br><br>
-        The passion and the flame is ignited<br>
-        You can't put it out once we light it<br>
-        This shit is exactly what the fuck that<br>
-        I'm talkin' about when we riot<br>
-        You dealin' with a few true villains<br>
-        Who stand inside of the booth truth-spillin'<br>
-        And spit true feelings until our tooth fillings<br>
-        Come flyin' up out of our mouths, now rewind it<br><br>
-        Payback, motherfucker<br>
-        For the way that you doubted me, how's it taste?<br>
-        When I slap the taste outta your mouth<br>
-        With the bass so loud that it shakes the place<br>
-        I'm Hannibal Lecter, so just in case<br>
-        You're thinkin' of savin' face<br>
-        You ain't gonna have no face to save<br>
-        By the time I'm through with this place, so Drake</p>
-      
-      <p class="lyricsHeader">
-        Chorus: Drake
-      </p>
-      <p class="lyricsDetail">
-        It may not mean nothin' to y'all<br>
-        But understand, nothin' was done for me<br>
-        So I don't plan on stoppin' at all<br>
-        I want this shit forever mane, 'ever mane, 'ever mane<br><br>
-        I'm shuttin' shit down in the mall<br>
-        And tellin' every girl she the one for me<br>
-        And I ain't even plannin' to call<br>
-        I want this shit forever mane, 'ever mane, 'ever mane</p>
-    </div>
-  </section>
-
-  <footer class="footer">
-    <h2>Other personnel</h2>
-    <ul>
-      <li>Keyboards by Mike Strange and Eric Johnson</li>
-      <li>Recorded by Mike Strange and Noah &ldquo;40&rdquo; Shebib</li>
-      <li>Assistant engineer: Joe Strange</li>
-      <li>Mixed by Eminem</li>
-    </ul>
-  </footer>
-
-<section class="songHero">
-  <div class="songTitle">
-    <h2 style="text-align:center;">Stream the song:</h2>
-    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2wDz70kiUyVKNSusLt7CNL?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-  </div>
-  <div class="songArtwork">
-    <h2 style="text-align:center;">Watch the video:</h2>
-    <iframe style="border-radius:12px" width="100%" height="352" src="https://www.youtube.com/embed/eDuRoPIOBjE?si=TfPVf0XnpUrDf3vH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  </div>
-</section>
+      <div class="songArtwork">
+        <h2 style="text-align:center;">Watch the video:</h2>
+        <iframe style="border-radius:12px" width="100%" height="352" src="https://www.youtube.com/embed/eDuRoPIOBjE?si=TfPVf0XnpUrDf3vH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </section>
+    
+    
 
 
   </body>
