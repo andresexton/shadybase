@@ -1,0 +1,154 @@
+body {
+  font-family: "Kanit";
+  font-size: 1.2em;
+  font-weight: 300;
+  color: #111111;
+  padding: 1em;
+}
+
+.songDetails {
+  display: flex;
+  gap: 1em;
+}
+
+.songCredits {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 1em;
+  width: calc(50% - 4em);
+  background: #eee;
+  padding: 1em;
+  height: calc(100vh - 4.5em);
+}
+
+.creditsTitle, .lyricsTitle {
+  height: 10%;
+  align-content: center;
+  text-align: right;
+  min-height: 75px;
+  border-bottom: 1px solid black;
+}
+
+.creditsTitle h2, .creditsType h3, .lyricsTitle h2 {
+  margin: 0;
+}
+
+.creditsSection {
+  height: 30%;
+  margin-top: 0.5em;
+  display: flex;
+  flex-direction: column;
+  overflow-x: scroll;
+}
+
+.creditsType {
+  height: 20%;
+}
+
+.creditsPeople {
+  height: 80%;
+  display: flex;
+  gap: 0.5em;
+}
+
+.person {
+  height: 100%;
+  aspect-ratio: 1 / 1;
+  background: black;
+  background-color: #111111;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	position: relative;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	transition: all 0.2s ease-in-out;
+}
+
+.person:hover {
+	box-shadow: 
+		inset 0 0 0 1px rgba(255,255,255,0.1),
+		0 1px 2px rgba(0,0,0,0.1);
+}
+
+.person:hover .personInfo {
+	transform: scale(1);
+	opacity: 1;
+}
+
+.personInfo {
+	position: absolute;
+	background: rgba(0,0,0, 0.4);
+	width: 100%;
+  height: inherit;
+	overflow: hidden;
+	opacity: 0;
+	transition: all 0.2s ease-in-out;
+	transform: scale(0);
+  text-align: center;
+  align-content: center;
+}
+
+.personInfo {
+	color: #ffffff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 1em;
+  line-height: 24px;
+	text-shadow: 0 0 1px #fff, 0 1px 2px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+.feat:after {
+  content: "feat.";
+}
+
+.co:after {
+  content: "co.";
+}
+
+.add:after {
+  content: "add.";
+}
+
+.samp:after {
+  content: "smp.";
+}
+
+.feat:after, .co:after, .add:after, .samp:after {
+  display: block;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 10px;
+  right: 10px;
+  font-size: 10px;
+  padding: 2px;
+  background: white;
+  color: #111111;
+  align-content: center;
+  text-align: center;
+}
+
+.songLyrics {
+  display: flex;
+  flex-direction: column;
+  width: calc(50% - 2em);
+  color: #111111;
+  background: #eee;
+  padding: 1em;
+}
+
+p.lyricsHeader {
+  font-weight: 500;
+  margin-bottom: 0.25em;
+}
+
+p.lyricsDetail {
+  margin-top: 0;
+}
+
+.aalias { background-image: url(https://www.nautiljon.com/images/people/01/98/aalias_119589.webp); }
+.eminem { background-image: url(https://andresexton.github.io/shadybase/Eminem-Headshot.png); }
+.frequency { background-image: url(https://secondhandsongs.com/picture/125848?x=0&y=101&w=796&h=796&c=0); }
+.rihanna { background-image: url(https://tophit.com/_next/image?url=https%3A%2F%2Ff.tophit.com%2Fget.php%3Fw%3D1080%26h%3D1080%26id%3D2696&w=640&q=75); }
