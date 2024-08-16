@@ -80,7 +80,6 @@ h2 a:hover, h3 a:hover {
 
 .songDetails {
     display: flex;
-    gap: 1em;
 }
 
 .songCredits {
@@ -205,6 +204,7 @@ h2 a:hover, h3 a:hover {
     color: #111111;
     background: #eee;
     padding: 1em;
+    margin-left: 1em;
 }
 
 p.lyricsHeader {
