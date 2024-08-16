@@ -59,6 +59,7 @@ h2 a:hover, h3 a:hover {
     background: #eee;
     padding: 1em 2em;
     gap: 2em;
+    margin-bottom: 1em;
 }
 
 .songTitle {
