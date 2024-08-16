@@ -53,6 +53,7 @@ body {
 
 .creditsType {
     height: 30%;
+    align-content: center;
 }
 
 .creditsPeople {
