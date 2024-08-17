@@ -57,6 +57,8 @@ h2 a:hover, h3 a:hover {
 
 .songHero {
     display: grid;
+    grid-auto-columns: minmax(0, 1fr);
+    grid-auto-flow: column;
     align-items: center;
     background: #eee;
     padding: 1em 2em;
@@ -79,11 +81,68 @@ h2 a:hover, h3 a:hover {
     height: 350px;
 }
 
+/* Track nav section */
+
+.trackNav {
+    width: 75vw;
+    background: #ddd;
+    margin: 0 auto;
+    display: grid;
+    grid-auto-columns: 28% 8% 28% 8% 28%;
+    grid-auto-flow: column;
+    padding: 1em;
+    align-items: center;
+  }
+  
+  .prevTrack {
+    text-align: right;
+    padding: 0 1em;
+  }
+  
+  .prevArrow {
+    text-align: center;
+  }
+  
+  .thisTrack {
+    text-align: center;
+    font-weight: 700;
+    margin: 0 1em;
+    padding: 0.5em;
+  }
+  
+  .nextArrow {
+    text-align: center;
+  }
+  
+  .nextTrack {
+    text-align: left;
+    padding: 0 1em;
+  }
+  
+  .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  
+
 /* Details section */
 
 .songDetails {
-    display: flex;
-    width: calc(100vw - 1em);
+    display: grid;
+    grid-auto-columns: minmax(0, 1fr);
+    grid-auto-flow: column;
 }
 
 .songCredits {
@@ -91,7 +150,7 @@ h2 a:hover, h3 a:hover {
     flex-direction: column;
     position: sticky;
     top: 1em;
-    width: calc(50% - 4em);
+    width: 100%;
     background: #eee;
     padding: 1em;
     height: calc(100vh - 4em);
@@ -208,7 +267,7 @@ h2 a:hover, h3 a:hover {
 .songLyrics {
     display: flex;
     flex-direction: column;
-    width: calc(50% - 2em);
+    width: 100%;
     color: #111111;
     background: #eee;
     padding: 1em;
