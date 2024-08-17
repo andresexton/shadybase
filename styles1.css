@@ -92,6 +92,7 @@ h2 a:hover, h3 a:hover {
     grid-auto-flow: column;
     padding: 1em;
     align-items: center;
+    margin-bottom: 1em;
   }
   
   .prevTrack {
@@ -143,6 +144,7 @@ h2 a:hover, h3 a:hover {
     display: grid;
     grid-auto-columns: minmax(0, 1fr);
     grid-auto-flow: column;
+    gap: 1em;
 }
 
 .songCredits {
@@ -150,7 +152,6 @@ h2 a:hover, h3 a:hover {
     flex-direction: column;
     position: sticky;
     top: 1em;
-    width: 100%;
     background: #eee;
     padding: 1em;
     height: calc(100vh - 4em);
@@ -267,11 +268,9 @@ h2 a:hover, h3 a:hover {
 .songLyrics {
     display: flex;
     flex-direction: column;
-    width: 100%;
     color: #111111;
     background: #eee;
     padding: 1em;
-    margin-left: 1em;
 }
 
 p.lyricsHeader {
