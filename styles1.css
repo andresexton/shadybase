@@ -234,7 +234,7 @@ h2 a:hover, h3 a:hover {
     content: "feat.";
 }
 
-.unc:after {
+.unlisted:after {
     content: "unc.";
 }
 
@@ -246,11 +246,11 @@ h2 a:hover, h3 a:hover {
     content: "add.";
 }
 
-.samp:after {
+.sample:after {
     content: "samp.";
 }
 
-.feat:after, .unc:after, .co:after, .add:after, .samp:after {
+.feat:after, .unlisted:after, .co:after, .add:after, .sample:after {
     display: block;
     position: absolute;
     width: 25%;
