@@ -10,9 +10,11 @@ body {
 }
 
 body.infinite {
-    background: url(/shadybase/images/backgrounds/Eminem-Infinite-background.png), #22276e;
-    background-position: center top;
-    background-size: 100% auto;
+    background: url(/shadybase/images/backgrounds/Eminem-Infinite-background.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 h1 {
