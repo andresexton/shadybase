@@ -10,8 +10,7 @@ body {
 }
 
 body.infinite {
-    background-color: #22276e;
-    background-image: url(/shadybase/backgrounds/Eminem-Infinite-background.png);
+    background: url(/shadybase/backgrounds/Eminem-Infinite-background.png), #22276e;
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
