@@ -283,7 +283,9 @@ p.lyricsHeader {
     margin-top: 0;
 }
 
+.denaun { background-image: url(/shadybase/images/headshots/Denaun-Porter-Headshot.jpg); }
 .dre { background-image: url(/shadybase/images/headshots/Dr-Dre-Headshot.jpg); }
+.eminemp0 { background-image: url(/shadybase/images/headshots/Eminem-Headshot-p0.jpg); }
 .eminemp1 { background-image: url(/shadybase/images/headshots/Eminem-Headshot-p1.jpg); }
 .jeffBass { background-image: url(/shadybase/images/headshots/Jeff-Bass-Headshot.jpg); }
 .labiSiffre { background-image: url(/shadybase/images/headshots/Labi-Siffre-Headshot.jpg); }
