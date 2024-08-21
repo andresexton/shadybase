@@ -57,8 +57,7 @@ h2 a:hover, h3 a:hover {
 
 .songHero {
     display: grid;
-    grid-auto-columns: minmax(0, 1fr);
-    grid-auto-flow: column;
+    grid-template-columns: 70% 30%;
     align-items: center;
     background: #eee;
     padding: 1em 2em;
