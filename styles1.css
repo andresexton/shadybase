@@ -93,7 +93,6 @@ h2 a:hover, h3 a:hover {
 
 .trackNav {
     width: 75vw;
-    background: #ddd;
     margin: 0 auto;
     display: grid;
     grid-auto-columns: 28% 8% 28% 8% 28%;
@@ -101,6 +100,10 @@ h2 a:hover, h3 a:hover {
     padding: 1em;
     align-items: center;
     margin-bottom: 1em;
+  }
+
+  body.infinite > .trackNav {
+    color: white;
   }
   
   .prevTrack {
@@ -117,6 +120,8 @@ h2 a:hover, h3 a:hover {
     font-weight: 700;
     margin: 0 1em;
     padding: 0.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
   }
   
   .nextArrow {
