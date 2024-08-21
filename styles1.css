@@ -73,11 +73,13 @@ h2 a:hover, h3 a:hover {
   .songArtwork {
     grid-column: 2;
     text-align: right;
+    margin-right: 2em;
 }
   
   .songArtwork img {
-    width: 350px;
-    height: 350px;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    max-width: 350px;
 }
 
 /* Track nav section */
