@@ -76,6 +76,10 @@ body.infinite .songHero {
     color: white;
 }
 
+body.infinite .songHero .songArtwork img {
+    box-shadow: 0 0 10px white;
+}
+
 .songTitle {
     grid-column: 1;
     text-align: left;
