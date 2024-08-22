@@ -5,7 +5,6 @@ body {
     font-size: 1.2em;
     font-weight: 300;
     color: #111111;
-    padding: 1em;
     margin: 0;
 }
 
@@ -67,6 +66,10 @@ span {
     padding: 1em 2em;
     gap: 2em;
     margin-bottom: 1em;
+}
+
+body.infinite .songHero {
+    background: linear-gradient(rgb(140, 61, 135), rgb(24, 45, 92));
 }
 
 .songTitle {
