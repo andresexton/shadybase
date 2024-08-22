@@ -79,7 +79,7 @@ body.infinite .songHero {
 }
 
 body.infinite .songHero .songArtwork img {
-    box-shadow: 0 0 10px white;
+    box-shadow: 0 0 10px rgba(255,255,255,0.5);
 }
 
 .songTitle {
