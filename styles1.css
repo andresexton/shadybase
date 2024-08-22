@@ -88,11 +88,6 @@ span {
 
 /* Track nav section */
 
-.navHeader {
-    width: 75vw;
-    border-bottom: 1px solid inherit;
-}
-
 .trackNav {
     width: 75vw;
     margin: 0 auto;
