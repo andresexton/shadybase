@@ -88,17 +88,10 @@ span {
 
 /* Track nav section */
 
-.trackNav2 {
-    display: grid;
-    grid-template-areas:
-        'header header header header header'
-        'track arrow track arrow track';
-    gap: 1em;
+.navHeader {
+    width: 75vw;
+    border-bottom: 1px solid inherit;
 }
-
-.trackNav2 .navHeader { grid-area: header; }
-.trackNav2 .prevTrack, .trackNav2 .thisTrack, .trackNav2 .nextTrack { grid-area: track; }
-.trackNav2 .prevArrow, .trackNav2 .nextArrow { grid-area: arrow; }
 
 .trackNav {
     width: 75vw;
@@ -109,10 +102,6 @@ span {
     padding: 1em;
     align-items: center;
     margin-bottom: 1em;
-  }
-
-  .navHeader {
-    border-bottom: 1px solid inherit;
   }
   
   .prevTrack {
