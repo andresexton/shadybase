@@ -163,7 +163,7 @@ body.infinite .songHero .songArtwork img {
 
 .songDetails {
     display: grid;
-    grid-auto-columns: 47.5% 52.5%;
+    grid-auto-columns: 50% 50%;
     grid-auto-flow: column;
     gap: 1em;
     margin-right: 1em;
