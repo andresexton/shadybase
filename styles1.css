@@ -150,7 +150,8 @@ span {
 
 .songDetails {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-auto-columns: 45% 55%;
+    grid-auto-flow: column;
     gap: 1em;
 }
 
