@@ -74,6 +74,8 @@ body.infinite .songHero {
 
 body.infinite .songHero {
     color: white;
+    border-top: 3px solid #222222;
+    border-bottom: 3px solid #222222;
 }
 
 body.infinite .songHero .songArtwork img {
