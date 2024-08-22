@@ -70,6 +70,7 @@ span {
 
 body.infinite .songHero {
     background: linear-gradient(rgb(140, 61, 135), rgb(24, 45, 92));
+    color: white;
 }
 
 .songTitle {
