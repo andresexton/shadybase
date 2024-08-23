@@ -8,6 +8,12 @@ body {
     margin: 0;
 }
 
+span {
+    display: inline-block;
+}
+
+/* Header styling */
+
 h1 {
     font-size: 5rem;
     line-height: 4rem;
@@ -41,9 +47,7 @@ h2 a:hover, h3 a:hover {
     opacity: 0.8;
 }
 
-span {
-    display: inline-block;
-}
+/* Backwards E */
 
 .flip {
     transform: scale(-1, 1);
@@ -68,20 +72,6 @@ span {
     margin-bottom: 1em;
 }
 
-body.infinite .songHero {
-    background: linear-gradient(rgb(140, 61, 135), rgb(24, 45, 92));
-}
-
-body.infinite .songHero {
-    color: white;
-    border-top: 3px solid #222222;
-    border-bottom: 3px solid #222222;
-}
-
-body.infinite .songHero .songArtwork img {
-    box-shadow: 0 0 10px rgba(255,255,255,0.5);
-}
-
 .songTitle {
     grid-column: 1;
     text-align: left;
@@ -98,6 +88,12 @@ body.infinite .songHero .songArtwork img {
     aspect-ratio: 1 / 1;
     max-width: 350px;
 }
+
+/* Hero section colours */
+
+body.infinite .songHero { background: linear-gradient(rgb(140, 61, 135), rgb(24, 45, 92)); }
+body.infinite .songHero { color: white; border-top: 3px solid #222222; border-bottom: 3px solid #222222; }
+body.infinite .songHero .songArtwork img { box-shadow: 0 0 10px rgba(255,255,255,0.5); }
 
 /* Track nav section */
 
@@ -303,6 +299,8 @@ p.lyricsHeader {
 .lyricsDetail p {
     margin-top: 0;
 }
+
+/* Performer thumbnails */
 
 .denaun { background-image: url(/shadybase/images/headshots/Denaun-Porter-Headshot.jpg); }
 .djHead { background-image: url(/shadybase/images/headshots/DJ-Head-Headshot.jpg); }
