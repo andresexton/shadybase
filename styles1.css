@@ -164,6 +164,7 @@ body.infinite .songHero .songArtwork img, body.ssep .songHero .songArtwork img {
     grid-auto-flow: column;
     gap: 1em;
     margin-right: 1em;
+    margin-bottom: 1em;
 }
 
 .songCredits {
