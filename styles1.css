@@ -179,9 +179,16 @@ body.infinite .songHero .songArtwork img, body.ssep .songHero .songArtwork img {
 .creditsTitle, .lyricsTitle {
     height: 10%;
     align-content: center;
-    text-align: right;
     min-height: 75px;
     border-bottom: 1px solid black;
+}
+
+.creditsTitle {
+    text-align: right;
+}
+
+.lyricsTitle {
+    text-align: left;
 }
 
 .creditsTitle h2, .creditsType h3, .lyricsTitle h2 {
