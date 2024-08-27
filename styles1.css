@@ -341,11 +341,9 @@ p.lyricsHeader {
 
 .personPage {
     display: grid;
-    grid-auto-columns: 30% 70%;
+    grid-auto-columns: 40% 60%;
     grid-auto-flow: column;
     gap: 1em;
-    margin-right: 1em;
-    margin-bottom: 1em;
 }
 
 .personHero {
