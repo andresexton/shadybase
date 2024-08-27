@@ -6,43 +6,63 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script>
+      var options = {
+  accessibility: true,
+  prevNextButtons: true,
+  pageDots: true,
+  setGallerySize: false,
+  arrowShape: {
+    x0: 10,
+    x1: 60,
+    y1: 50,
+    x2: 60,
+    y2: 45,
+    x3: 15
+  }
+};
+
+var carousel = document.querySelector('[data-carousel]');
+var slides = document.getElementsByClassName('carousel-cell');
+var flkty = new Flickity(carousel, options);
+
+flkty.on('scroll', function () {
+  flkty.slides.forEach(function (slide, i) {
+    var image = slides[i];
+    var x = (slide.target + flkty.x) * -1/3;
+    image.style.backgroundPosition = x + 'px';
+  });
+});
+    </script>
   </head>
 
   <body class="personPage">
-    <section class="slider_container">
-      <section class="slider">
-        <div class="slide one">
-          <img src="https://cdn.pixabay.com/photo/2022/10/20/11/26/landscape-7534634__340.jpg" alt="">
-          <span class="caption">
-            slide one
-          </span>
+    <div class="hero-slider" data-carousel>
+        <div class="carousel-cell" style="background-image:url(https://68.media.tumblr.com/57836ee52bc9355ad7c5fed5abf91ccc/tumblr_oiboo6MaRS1slhhf0o1_1280.jpg);">
+          <div class="overlay"></div>
+          <div class="inner">
+            <h3 class="subtitle">Slide 1</h3>
+            <h2 class="title">Flickity Parallax</h2>
+            <a href="https://flickity.metafizzy.co/" target="_blank" class="btn">Tell me more</a>
+          </div>
         </div>
-        <div class="slide two">
-          <img src="https://cdn.pixabay.com/photo/2022/09/27/05/10/cape-leadwort-7482043__340.jpg" alt="">
-          <span class="caption">
-            slide two
-          </span>
+      <div class="carousel-cell" style="background-image:url(https://68.media.tumblr.com/c40636a5a0d4aa39c335c8db40d2144f/tumblr_omc7z7Xv8N1slhhf0o1_1280.jpg);">
+          <div class="overlay"></div>
+          <div class="inner">
+            <h3 class="subtitle">Slide 2</h3>
+            <h2 class="title">Flickity Parallax</h2>
+            <a href="https://flickity.metafizzy.co/" target="_blank" class="btn">Tell me more</a>
+          </div>
         </div>
-        <div class="slide three">
-          <img src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg" alt="">
-          <span class="caption">
-            slide three
-          </span>
+      <div class="carousel-cell" style="background-image:url(https://68.media.tumblr.com/3beb13a4167aa8b5c4743eac17bf351c/tumblr_o8nyvtiHfC1slhhf0o1_1280.jpg);">
+          <div class="overlay"></div>
+          <div class="inner">
+            <h3 class="subtitle">Slide 3</h3>
+            <h2 class="title">Flickity Parallax</h2>
+            <a href="https://flickity.metafizzy.co/" target="_blank" class="btn">Tell me more</a>
+          </div>
         </div>
-        <div class="slide four">
-          <img src="https://cdn.pixabay.com/photo/2023/01/06/13/33/city-7701251_960_720.jpg" alt="">
-          <span class="caption">
-            slide four
-          </span>
-        </div>
-        <div class="slide four">
-          <img src="https://cdn.pixabay.com/photo/2023/01/10/00/30/swan-7708580__340.jpg" alt="">
-          <span class="caption">
-            slide five
-          </span>
-        </div>
-      </section>
-    </section>
+      </div>
   </body>
 
 </html>
