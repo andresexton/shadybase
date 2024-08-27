@@ -352,8 +352,13 @@ p.lyricsHeader {
     display: flex;
     flex-direction: column;
     position: sticky;
-    top: 1em;
+    top: 0;
     background: #eee;
-    padding: 1em 2em;
-    height: calc(100vh - 4em);
+    height: 100vh;
+}
+
+.personHero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
