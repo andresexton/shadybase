@@ -339,12 +339,7 @@ p.lyricsHeader {
 .royce { background-image: url(/shadybase/images/headshots/Royce-Da-5-9-Headshot.jpg); }
 .thyme { background-image: url(/shadybase/images/headshots/Thyme-Headshot.jpg); }
 
-$font-family-primary: 'Montserrat', sans-serif;
-$font-family-secondary: 'Roboto Slab', serif;
 
-body {
-  background-color: #000;
-}
 
 .overlay {
   position: absolute;
@@ -358,23 +353,25 @@ body {
   width: 50%;
   height: 100vh;
   overflow: hidden;
+}
 
-  .carousel-cell {
+.hero-slider .carousel-cell {
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+  }
 
-    .inner {
+  .carousel-cell .inner {
       position: relative;
       top: 50%;
       transform: translateY(-50%);
       color: white;
       text-align: center;
+  }
 
-      .subtitle {
-        font-family: $font-family-secondary;
+      .inner .subtitle {
         font-size: 2.2rem;
         line-height: 1.2em;
         font-weight: 200;
@@ -384,56 +381,51 @@ body {
         margin-bottom: 5px;
       }
 
-      .title {
-        font-family: $font-family-primary;
+      .inner .title {
         font-size: 3rem;
         line-height: 1.2em;
         text-transform: uppercase;
         letter-spacing: 3px;
         margin-bottom: 40px;
       }
-      .btn{
+      .inner .btn{
         border: 1px solid #fff;
         padding: 14px 18px;
         text-transform: uppercase;
-        font-family: $font-family-primary;
         font-size: 0.8rem;
         letter-spacing: 3px;
         color: #fff;
         text-decoration: none;
         transition: all .2s ease;
-        &:hover{
+      }
+        .inner .btn:hover{
           background: #fff;
           color: #000;
         }
-      }
-    }
-  }
 
   .flickity-prev-next-button {
     width: 80px;
     height: 80px;
     background: transparent;
-    &:hover{
+  }
+  .flickity-prev-next-button:hover{
       background: transparent;
     }
-    .arrow{
+    .flickity-prev-next-button:hover .arrow{
       fill: white;
     }
-  }
   .flickity-page-dots {
     bottom: 30px;
-    .dot{
+  }
+    .flickity-page-dots .dot {
       width: 30px;
       height: 4px;
       opacity: 1;
       background: rgba(255,255,255,0.5);
       border: 0 solid white;
       border-radius: 0;
-      &.is-selected{
+    }
+    .flickity-page-dots .dot.is-selected{
         background: #ff0000;
         border: 0 solid #ff0000; 
-      }
     }
-  }
-}
