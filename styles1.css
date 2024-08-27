@@ -257,6 +257,10 @@ body.infinite .songHero .songArtwork img, body.ssep .songHero .songArtwork img {
     text-align: center;
 }
 
+.personInfo span {
+    padding: 0.5em;
+}
+
 .feat:after {
     content: "feat.";
 }
