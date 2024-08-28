@@ -92,14 +92,12 @@ h2 a:hover, h3 a:hover {
 .trackNav2 {
     display: flex;
     margin: 0 auto;
-    padding: 1em;
     align-items: center;
-    margin-bottom: 1em;
-  }
+}
   
-  .prevArrow2, .nextArrow2 {
-    padding: 0 2em;
-  }
+.prevTrack2, .prevArrow2, .thisTrack2, .nextArrow2 {
+    padding-right: 2em;
+}
 
 /* Hero section colours */
 
