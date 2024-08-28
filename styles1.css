@@ -103,10 +103,17 @@ h2 a:hover, h3 a:hover {
 
 /* Hero section colours */
 
-body.infinite .songHero { background: linear-gradient(rgb(140, 61, 135), rgb(24, 45, 92)); color: white; }
-body.ssep .songHero { background: linear-gradient(rgb(220, 68, 52), rgb(140, 36, 28)); color: white; }
-body.sslp .songHero { background: linear-gradient(rgb(214, 133, 36), rgb(43, 51, 92)); color: white; }
-body.infinite .songHero .songArtwork img, body.ssep .songHero .songArtwork img, body.sslp .songHero .songArtwork { box-shadow: 0 0 10px rgba(255,255,255,0.5); }
+body.infinite .songHero { background: linear-gradient(rgb(140, 61, 135), rgb(24, 45, 92)); }
+body.ssep .songHero { background: linear-gradient(rgb(220, 68, 52), rgb(140, 36, 28)); }
+body.sslp .songHero { background: linear-gradient(rgb(214, 133, 36), rgb(43, 51, 92)); }
+
+body.infinite .songHero, body.infinite .songHero a,
+body.ssep .songHero, body.ssep .songHero a,
+body.sslp .songHero, body.sslp .songHero a { color: white; }
+
+body.infinite .songHero .songArtwork img,
+body.ssep .songHero .songArtwork img,
+body.sslp .songHero .songArtwork { box-shadow: 0 0 10px rgba(255,255,255,0.5); }
 
 /* Track nav section */
 
