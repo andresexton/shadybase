@@ -112,7 +112,7 @@ body.sslp .songHero { background: linear-gradient(rgb(214, 133, 36), rgb(43, 51,
 
 body.infinite .songHero, body.infinite .songHero a, body.infinite .songHero .trackNav2 .arrow,
 body.ssep .songHero, body.ssep .songHero a,
-body.sslp .songHero, body.sslp .songHero a { color: white; }
+body.sslp .songHero, body.sslp .songHero a { border-color: white; }
 
 body.infinite .songHero .songArtwork img,
 body.ssep .songHero .songArtwork img,
