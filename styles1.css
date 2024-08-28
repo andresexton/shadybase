@@ -89,6 +89,18 @@ h2 a:hover, h3 a:hover {
     max-width: 350px;
 }
 
+.trackNav2 {
+    display: flex;
+    margin: 0 auto;
+    padding: 1em;
+    align-items: center;
+    margin-bottom: 1em;
+  }
+  
+  .prevArrow2, .nextArrow2 {
+    padding: 0 2em;
+  }
+
 /* Hero section colours */
 
 body.infinite .songHero { background: linear-gradient(rgb(140, 61, 135), rgb(24, 45, 92)); color: white; }
