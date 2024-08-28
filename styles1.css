@@ -118,13 +118,6 @@ body.infinite .songHero .songArtwork img,
 body.ssep .songHero .songArtwork img,
 body.sslp .songHero .songArtwork { box-shadow: 0 0 10px rgba(255,255,255,0.5); }
 
-.prevArrow2 .arrow, .nextArrow2 .arrow {
-    border-color: white;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-}
-
 /* Track nav section */
 
 .trackNav {
@@ -168,6 +161,7 @@ body.sslp .songHero .songArtwork { box-shadow: 0 0 10px rgba(255,255,255,0.5); }
   }
   
   .arrow {
+    border: solid black;
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 3px;
