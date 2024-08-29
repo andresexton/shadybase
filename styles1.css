@@ -351,8 +351,8 @@ p.lyricsHeader {
 .djHead { background-image: url(/shadybase/images/headshots/DJ-Head-Headshot.jpg); }
 .djRec { background-image: url(/shadybase/images/headshots/DJ-Rec-Headshot.jpg); }
 .dre { background-image: url(/shadybase/images/headshots/Dr-Dre-Headshot.jpg); }
-.eminemp0 { background-image: url(/shadybase/images/headshots/Eminem-Headshot-p0.jpg); }
-.eminemp1 { background-image: url(/shadybase/images/headshots/Eminem-Headshot-p1.jpg); }
+.eminemp0 /* Infinite and SSEP */ { background-image: url(/shadybase/images/headshots/Eminem-Headshot-p0.jpg); }
+.eminemp1 /* SSLP and MMLP */ { background-image: url(/shadybase/images/headshots/Eminem-Headshot-p1.jpg); }
 .frogg { background-image: url(/shadybase/images/headshots/Frogg-Headshot.jpg); }
 .jeffBass { background-image: url(/shadybase/images/headshots/Jeff-Bass-Headshot.jpg); }
 .kristieAbete { background-image: url(/shadybase/images/headshots/Kristie-Abete-Headshot.jpg); }
