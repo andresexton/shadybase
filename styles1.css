@@ -209,6 +209,10 @@ body.tdoss .songHero .songArtwork img { box-shadow: 0 0 10px rgba(255,255,255,0.
     height: calc(100vh - 4em);
 }
 
+.songCreditsCompact {
+    height: auto;
+}
+
 .creditsTitle, .lyricsTitle {
     height: 10%;
     align-content: center;
@@ -234,6 +238,10 @@ body.tdoss .songHero .songArtwork img { box-shadow: 0 0 10px rgba(255,255,255,0.
     display: flex;
     flex-direction: column;
     overflow-x: auto;
+}
+
+.songCreditsCompact .creditsSection {
+    height: 90%
 }
 
 .creditsType {
