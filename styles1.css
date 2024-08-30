@@ -209,7 +209,7 @@ body.tdoss .songHero .songArtwork img { box-shadow: 0 0 10px rgba(255,255,255,0.
     height: calc(100vh - 4em);
 }
 
-.songCreditsCompact {
+.compact {
     height: auto;
 }
 
@@ -240,7 +240,7 @@ body.tdoss .songHero .songArtwork img { box-shadow: 0 0 10px rgba(255,255,255,0.
     overflow-x: auto;
 }
 
-.songCreditsCompact .creditsSection {
+.compact .creditsSection {
     height: 90%
 }
 
