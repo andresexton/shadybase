@@ -353,7 +353,7 @@ p.lyricsHeader {
     margin-top: 0;
 }
 
-span.red { border-bottom: 1px solid red; }
+span.red { text-decoration: underline red; text-underline-offset: 2px; }
 span.green { border-bottom: 1px solid green; }
 span.blue { border-bottom: 1px solid blue; }
 
