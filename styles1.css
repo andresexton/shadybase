@@ -353,9 +353,9 @@ p.lyricsHeader {
     margin-top: 0;
 }
 
-span.red { border-top: 1px solid red; border-bottom: 1px solid red; }
-span.green { border-top: 1px solid green; border-bottom: 1px solid green; }
-span.blue { border-top: 1px solid blue; border-bottom: 1px solid blue; }
+span.red { border-bottom: 1px solid red; }
+span.green { border-bottom: 1px solid green; }
+span.blue { border-bottom: 1px solid blue; }
 
 /* Performer thumbnails */
 
