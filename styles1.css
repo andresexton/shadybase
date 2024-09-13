@@ -377,6 +377,7 @@ span.blue { border-bottom: 1px solid blue; }
 .proof { background-image: url(/shadybase/images/headshots/Proof-Headshot.jpg); }
 .royce { background-image: url(/shadybase/images/headshots/Royce-Da-5-9-Headshot.jpg); }
 .thyme { background-image: url(/shadybase/images/headshots/Thyme-Headshot.jpg); }
+.whiteGold { background-image: url(/shadybase/images/headshots/White-Gold-Headshot.jpg); }
 
 .personPage {
     display: grid;
