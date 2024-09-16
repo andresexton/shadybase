@@ -359,6 +359,7 @@ span.blue { border-bottom: 1px solid blue; }
 
 /* Performer thumbnails */
 
+.demJointz { background-image: url(/shadybase/images/headshots/Dem-Jointz-Headshot.jpg); }
 .denaun { background-image: url(/shadybase/images/headshots/Denaun-Porter-Headshot.jpg); }
 .djHead { background-image: url(/shadybase/images/headshots/DJ-Head-Headshot.jpg); }
 .djRec { background-image: url(/shadybase/images/headshots/DJ-Rec-Headshot.jpg); }
@@ -366,6 +367,7 @@ span.blue { border-bottom: 1px solid blue; }
 .eminemp0 /* Infinite and SSEP */ { background-image: url(/shadybase/images/headshots/Eminem-Headshot-p0.jpg); }
 .eminemp1 /* SSLP and MMLP */ { background-image: url(/shadybase/images/headshots/Eminem-Headshot-p1.jpg); }
 .eminem2024 /* TDOSS */ { background-image: url(/shadybase/images/headshots/Eminem-Headshot-2024.jpg); }
+.fredwreck { background-image: url(/shadybase/images/headshots/Fredwreck-Headshot.jpg); }
 .frogg { background-image: url(/shadybase/images/headshots/Frogg-Headshot.jpg); }
 .jeffBass { background-image: url(/shadybase/images/headshots/Jeff-Bass-Headshot.jpg); }
 .kristieAbete { background-image: url(/shadybase/images/headshots/Kristie-Abete-Headshot.jpg); }
